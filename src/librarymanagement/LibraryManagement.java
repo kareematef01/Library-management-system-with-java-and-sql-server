@@ -27,6 +27,11 @@ public class LibraryManagement {
         Logger logger = Logger.getInstance();
         logger.log("Library Management System Started.");
       
+        
+       Book book1 = new Book("Java Programming");
+        UserObserver userObserver = new UserObserver("Alice");
+        book1.addObserver(userObserver);
+        book1.borrow();
 
     }
 }

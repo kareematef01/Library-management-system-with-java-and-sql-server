@@ -9,10 +9,10 @@ import classes.Logger;
 import interfaces.Book;
 import interfaces.classesBook.BookFactory;
 import java.sql.Connection;
-import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import javax.swing.JOptionPane;
+
 
 /**
  *
@@ -23,14 +23,15 @@ public class libraryForm extends javax.swing.JFrame {
     /**
      * Creates new form libraryForm
      */
-     String username;
+    String username;
+
     public libraryForm(String name, String userType) {
         initComponents();
         if (name == null) {
             name = "regular";
         }
-       username = name;
-        userName.setText(userType+" : "+name);
+        username = name;
+        userName.setText(userType + " : " + name);
     }
 
     /**
@@ -204,6 +205,7 @@ public class libraryForm extends javax.swing.JFrame {
                 JOptionPane.showMessageDialog(this, "invalid add");
 
             }
+
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(this, ex.getMessage());
         } finally {
@@ -233,15 +235,15 @@ public class libraryForm extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        
+
         BorrowForm B1 = new BorrowForm(username);
-                B1.setVisible(true);
-                B1.setLocationRelativeTo(null);
+        B1.setVisible(true);
+        B1.setLocationRelativeTo(null);
     }//GEN-LAST:event_jButton2ActionPerformed
 
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
         // TODO add your handling code here:
-         dispose();
+        dispose();
     }//GEN-LAST:event_jButton3ActionPerformed
 
     /**
