@@ -2,7 +2,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Interface.java to edit this template
  */
-package librarymanagement;
+package form;
+
 
 
 
@@ -14,29 +15,28 @@ import java.util.List;
  * @author Kimo
  */
 public interface Observer {
-
     void update(String message);
 }
 
 class UserObserver implements Observer {
-
     private String userName;
 
     public UserObserver(String userName) {
         this.userName = userName;
     }
 
+    @Override
     public void update(String message) {
         System.out.println("User " + userName + " notified: " + message);
     }
 }
 
-class Book {
-
+// Subject (Book2)
+class Book2 {
     private String title;
     private List<Observer> observers = new ArrayList<>();
 
-    public Book(String title) {
+    public Book2(String title) {
         this.title = title;
     }
 

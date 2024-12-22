@@ -9,11 +9,11 @@ package form;
  * @author Kimo
  */
 // Command Interface
-interface Command {
+public interface Command {
     void execute();
 }
 
-// Receiver
+// Receiver (Book)
 class Book {
     private String title;
 
@@ -57,7 +57,7 @@ class ReturnBookCommand implements Command {
     }
 }
 
-// Invoker
+// Invoker (Librarian)
 class Librarian {
     public void executeCommand(Command command) {
         command.execute();

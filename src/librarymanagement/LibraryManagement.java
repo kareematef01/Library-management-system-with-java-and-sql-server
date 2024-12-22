@@ -28,10 +28,6 @@ public class LibraryManagement {
         logger.log("Library Management System Started.");
       
         
-       Book book1 = new Book("C++ Programming");
-        UserObserver userObserver = new UserObserver("kareem");
-        book1.addObserver(userObserver);
-        book1.borrow();
 
     }
 }

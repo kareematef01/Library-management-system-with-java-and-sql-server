@@ -215,7 +215,7 @@ public class login_form extends javax.swing.JFrame {
 
         
         if (userType == "regular") {
-            libraryForm L1 = new libraryForm(userType, "");
+            LibraryManage L1 = new LibraryManage(userType, "");
             L1.setVisible(true);
             L1.setLocationRelativeTo(null);
             return;
@@ -244,7 +244,7 @@ public class login_form extends javax.swing.JFrame {
                 String name = result.getString("user_name");
                 String hello = "hello " + name;
                 JOptionPane.showMessageDialog(this, hello);
-                libraryForm L1 = new libraryForm(name, userType);
+                LibraryManage L1 = new LibraryManage(name, userType);
                 L1.setVisible(true);
                 L1.setLocationRelativeTo(null);
             } else {

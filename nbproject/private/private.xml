@@ -7,18 +7,21 @@
             <file>file:/D:/Java%20Projects/libraryManagement/src/interfaces/Book.java</file>
             <file>file:/D:/Java%20Projects/libraryManagement/src/interfaces/classesBook/SoftwareEngineeringBook.java</file>
             <file>file:/D:/Java%20Projects/libraryManagement/src/interfaces/classesBook/BookFactory.java</file>
+            <file>file:/D:/Java%20Projects/libraryManagement/src/form/BookOperations.java</file>
             <file>file:/D:/Java%20Projects/libraryManagement/src/form/Command.java</file>
             <file>file:/D:/Java%20Projects/libraryManagement/nbproject/build-impl.xml</file>
             <file>file:/D:/Java%20Projects/libraryManagement/src/interfaces/classesBook/ArtificialIntelligenceBook.java</file>
             <file>file:/D:/Java%20Projects/libraryManagement/src/interfaces/users.java</file>
             <file>file:/D:/Java%20Projects/libraryManagement/src/form/BorrowForm.java</file>
-            <file>file:/D:/Java%20Projects/libraryManagement/src/librarymanagement/Observer.java</file>
             <file>file:/D:/Java%20Projects/libraryManagement/src/interfaces/classesBook/ManagementBook.java</file>
             <file>file:/D:/Java%20Projects/libraryManagement/src/interfaces/classesUser/Admin.java</file>
+            <file>file:/D:/Java%20Projects/libraryManagement/src/form/Observer.java</file>
             <file>file:/D:/Java%20Projects/libraryManagement/src/form/login_form.java</file>
             <file>file:/D:/Java%20Projects/libraryManagement/src/classes/Logger.java</file>
             <file>file:/D:/Java%20Projects/libraryManagement/src/librarymanagement/LibraryManagement.java</file>
+            <file>file:/D:/Java%20Projects/libraryManagement/src/form/LibraryManage.java</file>
             <file>file:/D:/Java%20Projects/libraryManagement/src/classes/DatabaseConnection.java</file>
+            <file>file:/D:/Java%20Projects/libraryManagement/src/form/ReservedBook.java</file>
         </group>
     </open-files>
 </project-private>
