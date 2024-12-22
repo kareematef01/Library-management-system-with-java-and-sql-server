@@ -8,7 +8,7 @@ package form;
  *
  * @author Kimo
  */
-//Decorator
+//Decorator 
 public interface BookOperations {
     void perform();
 }

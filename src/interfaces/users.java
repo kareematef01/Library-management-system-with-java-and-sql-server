@@ -13,39 +13,4 @@ public interface users {
 }
 
 
-//class Admin implements users {
-//    public void displayRole() {
-//        System.out.println("User Role: Admin");
-//    }
-//}
 
-//class Regular implements users {
-//    public void displayRole() {
-//        System.out.println("User Role: Regular ");
-//    }
-//}
-
-//class user implements users {
-//    public void displayRole() {
-//        System.out.println("User Role: user ");
-//    }
-//}
-
-// User Factory
-//class UserFactory {
-//    public static users getUser(String role) {
-//        if (role == null) {
-//            return null;
-//        }
-//        switch (role.toLowerCase()) {
-//            case "admin":
-//                return new Admin();
-//                case "user":
-//                return new user();
-//            case "regular":
-//                return new Regular();
-//            default:
-//                return null;
-//        }
-//    }
-//}

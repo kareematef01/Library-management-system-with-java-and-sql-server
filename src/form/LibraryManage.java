@@ -4,6 +4,7 @@
  */
 package form;
 
+
 /**
  *
  * @author Kimo
@@ -24,6 +25,9 @@ public class LibraryManage extends javax.swing.JFrame {
         }
         username = name;
         userName.setText(userType + " : " + name);
+        
+        
+        
     }
 
     /**

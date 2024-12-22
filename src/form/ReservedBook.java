@@ -375,7 +375,7 @@ public class ReservedBook extends javax.swing.JFrame {
             }
             
             BookOperations basicOperation = new BasicBookOperation();
-            BookOperations CancelReservationDecorator = new ReserveBookDecorator(basicOperation);
+            BookOperations CancelReservationDecorator = new CancelReservationDecorator(basicOperation);
             CancelReservationDecorator.perform();
             
             
