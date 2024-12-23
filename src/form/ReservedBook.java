@@ -21,7 +21,7 @@ public class ReservedBook extends javax.swing.JFrame {
      */
     String user;
 
-    public ReservedBook(String username) {
+    public ReservedBook(String username ) {
         initComponents();
         user = username;
         DatabaseConnection dbConnection = DatabaseConnection.getInstance();

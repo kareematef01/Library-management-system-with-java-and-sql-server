@@ -27,9 +27,6 @@ public class libraryForm extends javax.swing.JFrame {
 
     public libraryForm(String name, String userType) {
         initComponents();
-        if (name == null) {
-            name = "regular";
-        }
         username = name;
         userName.setText(userType + " : " + name);
     }

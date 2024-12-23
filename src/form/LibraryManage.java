@@ -152,9 +152,10 @@ public class LibraryManage extends javax.swing.JFrame {
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
-        ReservedBook R1 = new ReservedBook(username);
+         ReservedBook R1 = new ReservedBook(username );
         R1.setVisible(true);
         R1.setLocationRelativeTo(null);
+         
     }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
